@@ -1,0 +1,18 @@
+.searchbar-container{
+    
+    display:flex;
+    flex-direction: column;   
+}
+.searchbar-container input{
+    width:60vw;
+    border:1px solid black;
+    padding:5px;
+    margin-bottom:50px ;
+
+}
+.searchbar-container button{
+    width: fit-content;
+    align-self: center;
+    background-color: white;
+    border: 1px solid black;
+}

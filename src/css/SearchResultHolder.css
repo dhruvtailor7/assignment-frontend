@@ -1,0 +1,27 @@
+.searchresult{
+    outline: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1 1;
+    margin-bottom:20px;
+}
+.searchresult .title{
+    margin-bottom: 10px;
+    flex:50%    
+}
+.searchresult .answered{
+    text-align: right;
+    flex:50%    
+}
+.searchresult .tags{
+    flex: 50%;
+    font-size: small;
+}
+.searchresult .lastactivity{
+    text-emphasis: none;
+    font-size: small;
+    text-align: right;
+    flex: 50%;
+}
